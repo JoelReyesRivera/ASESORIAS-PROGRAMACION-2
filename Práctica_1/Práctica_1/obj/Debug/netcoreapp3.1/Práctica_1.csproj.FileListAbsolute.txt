@@ -1,0 +1,11 @@
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\bin\Debug\netcoreapp3.1\Práctica_1.exe
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\bin\Debug\netcoreapp3.1\Práctica_1.deps.json
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\bin\Debug\netcoreapp3.1\Práctica_1.runtimeconfig.json
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\bin\Debug\netcoreapp3.1\Práctica_1.runtimeconfig.dev.json
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\bin\Debug\netcoreapp3.1\Práctica_1.dll
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\bin\Debug\netcoreapp3.1\Práctica_1.pdb
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\obj\Debug\netcoreapp3.1\Práctica_1.csprojAssemblyReference.cache
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\obj\Debug\netcoreapp3.1\Práctica_1.AssemblyInfoInputs.cache
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\obj\Debug\netcoreapp3.1\Práctica_1.AssemblyInfo.cs
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\obj\Debug\netcoreapp3.1\Práctica_1.dll
+C:\Users\jreye\OneDrive - Instituto Tecnológico de Culiacán\Documentos\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Práctica_1\Práctica_1\obj\Debug\netcoreapp3.1\Práctica_1.pdb
