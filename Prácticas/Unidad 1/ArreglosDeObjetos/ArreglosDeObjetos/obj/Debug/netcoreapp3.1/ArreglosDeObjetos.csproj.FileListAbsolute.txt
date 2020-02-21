@@ -1,0 +1,11 @@
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\bin\Debug\netcoreapp3.1\ArreglosDeObjetos.exe
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\bin\Debug\netcoreapp3.1\ArreglosDeObjetos.deps.json
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\bin\Debug\netcoreapp3.1\ArreglosDeObjetos.runtimeconfig.json
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\bin\Debug\netcoreapp3.1\ArreglosDeObjetos.runtimeconfig.dev.json
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\bin\Debug\netcoreapp3.1\ArreglosDeObjetos.dll
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\bin\Debug\netcoreapp3.1\ArreglosDeObjetos.pdb
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\obj\Debug\netcoreapp3.1\ArreglosDeObjetos.csprojAssemblyReference.cache
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\obj\Debug\netcoreapp3.1\ArreglosDeObjetos.AssemblyInfoInputs.cache
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\obj\Debug\netcoreapp3.1\ArreglosDeObjetos.AssemblyInfo.cs
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\obj\Debug\netcoreapp3.1\ArreglosDeObjetos.dll
+C:\Users\jreye\Documents\TecNM Campus Culiacán\Git Repositories\ASESORIAS-PROGRAMACION-2\Prácticas\Unidad 1\ArreglosDeObjetos\ArreglosDeObjetos\obj\Debug\netcoreapp3.1\ArreglosDeObjetos.pdb
