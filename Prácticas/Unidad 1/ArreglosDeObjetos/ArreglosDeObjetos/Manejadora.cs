@@ -6,8 +6,8 @@ namespace ArreglosDeObjetos
 {
     class Manejadora
     {
-        Producto[] productos;
-        int contador;
+        private Producto[] productos;
+        private int contador;
         //CONSTRUCTOR
         public Manejadora(int Cantidad)
         {
@@ -18,12 +18,65 @@ namespace ArreglosDeObjetos
         //AGREGAR PRODUCTO
         public void AgregarProducto(int clave, string descripcion, float precioUnitario, int existencia)
         {
-            if (contador == productos.Length)
+            if (Lleno())
             {
                 return;
             }
             productos[contador] = new Producto(clave, descripcion, precioUnitario, existencia);
             contador++;
+        }
+
+        //ELIMINAR PRODUCTO
+        public int EliminarProducto(int clave)
+        {
+            int temp = BuscaProducto(clave);
+            if (temp == -1)
+                return -1;
+            productos[temp] = null;
+
+            for(int i = temp; i < productos.Length; i++)
+            {
+                if ((i + 1) == productos.Length)
+                {
+                    productos[i] = null;
+                    contador--;
+                    break;
+                }
+                productos[i] = productos[i + 1];
+            }
+            return 1;
+        }
+
+       //OBTENER LA EXISTENCIA DE UN PRODUCTO
+       public int ObtenerExistencia(int clave)
+        {
+           for(int i = 0; i < productos.Length; i++)
+            {
+                if (productos[i] != null)
+                {
+                    if (productos[i].pClave == clave)
+                    {
+                        return productos[i].pExistencia;
+                    }
+                }
+            }
+            return -1;
+        }
+
+        //OBTENER PRECIO UNITARIO
+        public float ObtenerPrecio(int clave)
+        {
+            for (int i = 0; i < productos.Length; i++)
+            {
+                if (productos[i] != null)
+                {
+                    if (productos[i].pClave == clave)
+                    {
+                        return productos[i].pPrecioUnitario;
+                    }
+                }
+            }
+            return -1;
         }
 
         //RETORNAR UNA CADENA CON LOS OBJETOS REPRESENTADOS EN STRING
@@ -40,50 +93,19 @@ namespace ArreglosDeObjetos
             }
             return cadena;
         }
-        //RESTAR X CANTIDAD A LA EXISTENCIA DE UN PRODUCTO
-        public void RestaExistencia(int clave, int cantidad)
+
+        //BUSCAR PRODUCTO
+        public int BuscaProducto(int clave)
         {
-            for (int i = 0; i < productos.Length; i++)
+            int temp = -1;
+            for(int i = 0; i < contador; i++)
             {
-                if (productos[i] != null)
-                {
-                    if (productos[i].pClave == clave)
-                    {
-                        productos[i].pExistencia=productos[i].pExistencia-cantidad;
-                    }
-                }
+                if (productos[i].pClave == clave)
+                    return i;
             }
+            return temp;
         }
-       //OBTENER LA EXISTENCIA DE UN PRODUCTO
-       public int ObtenerExistencia(int clave)
-        {
-           for(int i = 0; i < productos.Length; i++)
-            {
-                if (productos[i] != null)
-                {
-                    if (productos[i].pClave == clave)
-                    {
-                        return productos[i].pExistencia;
-                    }
-                }
-            }
-            return -1;
-        }
-        //OBTENER PRECIO UNITARIO
-        public float ObtenerPrecio(int clave)
-        {
-            for (int i = 0; i < productos.Length; i++)
-            {
-                if (productos[i] != null)
-                {
-                    if (productos[i].pClave == clave)
-                    {
-                        return productos[i].pPrecioUnitario;
-                    }
-                }
-            }
-            return -1;
-        }
+
         //ARREGLO LLENO
         public bool Lleno()
         {

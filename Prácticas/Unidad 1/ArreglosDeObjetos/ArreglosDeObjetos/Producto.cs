@@ -26,10 +26,6 @@ namespace ArreglosDeObjetos
             {
                 return clave;
             }
-            set
-            {
-                clave = value;
-            }
         }
         public float pPrecioUnitario
         {
@@ -65,6 +61,7 @@ namespace ArreglosDeObjetos
             }
         }
         //REPRESENTACION EN STRING DEL OBJETO
+        override
         public String ToString()
         {
             return "CLAVE: " + clave + "\nDESCRIPCIÓN: " + descripcion + "\nPRECIO UNITARIO: $" + precioUnitario + "\nEXISTENCIA: " + existencia; 

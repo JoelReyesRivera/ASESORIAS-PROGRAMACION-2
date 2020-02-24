@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jreye\\Documents\\TecNM Campus Culiacán\\Git Repositories\\ASESORIAS-PROGRAMACION-2\\Prácticas\\Unidad 1\\ArreglosDeObjetos\\ArreglosDeObjetos\\ArreglosDeObjetos.csproj": {}
+    "C:\\Users\\JorgeOSQ\\Documents\\ITCuliacán\\Desarrollo de software\\C#\\Asesorias Ene-Jun 2020\\Prácticas\\Unidad 1\\ArreglosDeObjetos\\ArreglosDeObjetos\\ArreglosDeObjetos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jreye\\Documents\\TecNM Campus Culiacán\\Git Repositories\\ASESORIAS-PROGRAMACION-2\\Prácticas\\Unidad 1\\ArreglosDeObjetos\\ArreglosDeObjetos\\ArreglosDeObjetos.csproj": {
+    "C:\\Users\\JorgeOSQ\\Documents\\ITCuliacán\\Desarrollo de software\\C#\\Asesorias Ene-Jun 2020\\Prácticas\\Unidad 1\\ArreglosDeObjetos\\ArreglosDeObjetos\\ArreglosDeObjetos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jreye\\Documents\\TecNM Campus Culiacán\\Git Repositories\\ASESORIAS-PROGRAMACION-2\\Prácticas\\Unidad 1\\ArreglosDeObjetos\\ArreglosDeObjetos\\ArreglosDeObjetos.csproj",
+        "projectUniqueName": "C:\\Users\\JorgeOSQ\\Documents\\ITCuliacán\\Desarrollo de software\\C#\\Asesorias Ene-Jun 2020\\Prácticas\\Unidad 1\\ArreglosDeObjetos\\ArreglosDeObjetos\\ArreglosDeObjetos.csproj",
         "projectName": "ArreglosDeObjetos",
-        "projectPath": "C:\\Users\\jreye\\Documents\\TecNM Campus Culiacán\\Git Repositories\\ASESORIAS-PROGRAMACION-2\\Prácticas\\Unidad 1\\ArreglosDeObjetos\\ArreglosDeObjetos\\ArreglosDeObjetos.csproj",
-        "packagesPath": "C:\\Users\\jreye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jreye\\Documents\\TecNM Campus Culiacán\\Git Repositories\\ASESORIAS-PROGRAMACION-2\\Prácticas\\Unidad 1\\ArreglosDeObjetos\\ArreglosDeObjetos\\obj\\",
+        "projectPath": "C:\\Users\\JorgeOSQ\\Documents\\ITCuliacán\\Desarrollo de software\\C#\\Asesorias Ene-Jun 2020\\Prácticas\\Unidad 1\\ArreglosDeObjetos\\ArreglosDeObjetos\\ArreglosDeObjetos.csproj",
+        "packagesPath": "C:\\Users\\JorgeOSQ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JorgeOSQ\\Documents\\ITCuliacán\\Desarrollo de software\\C#\\Asesorias Ene-Jun 2020\\Prácticas\\Unidad 1\\ArreglosDeObjetos\\ArreglosDeObjetos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jreye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JorgeOSQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

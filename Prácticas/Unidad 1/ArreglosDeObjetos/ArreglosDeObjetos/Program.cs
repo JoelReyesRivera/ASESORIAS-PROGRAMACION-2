@@ -22,7 +22,7 @@ namespace ArreglosDeObjetos
             while (opcion!=0)
             {
                 Console.WriteLine("\n----- MENU PRINCIPAL -----");
-                Console.WriteLine("1.- AGREGAR PRODUCTO\n2.- VER PRODUCTOS\n3.- REALIZAR COMPRA\n0.- SALIR");
+                Console.WriteLine("1.- AGREGAR PRODUCTO\n2.- VER PRODUCTOS\n3.- REALIZAR COMPRA\n4.- Eliminar Producto\n0.- SALIR");
                 opcion = Convert.ToInt32(Console.ReadLine());
                 switch (opcion)
                 {
@@ -50,27 +50,13 @@ namespace ArreglosDeObjetos
                         Console.WriteLine(manejadora.VerProductos());
                         break;
                     case 3:
+                        break;
+                    case 4:
                         Console.WriteLine(manejadora.VerProductos());
                         Console.WriteLine("\nCLAVE DEL PRODUCTO:");
                         clave = Convert.ToInt32(Console.ReadLine());
-                        existencia = manejadora.ObtenerExistencia(clave);
-                        if (existencia == -1)
-                        {
-                            Console.WriteLine("CLAVE INEXISTENTE");
-                            break;
-                        }
-                        Console.WriteLine("CANTIDAD:");     
-                        cantidad = Convert.ToInt32(Console.ReadLine());
-                        if (existencia-cantidad<0)
-                        {
-                            Console.WriteLine("EXISTENCIA INSUFICIENTE");
-                            break;
-                        }
-                        manejadora.RestaExistencia(clave,cantidad);
-                        float precioUnitario = manejadora.ObtenerPrecio(clave);
-                        float importe =precioUnitario * cantidad;
-                        Console.WriteLine("\nDETALLES DE COMPRA\nCLAVE: {0}\nPRECIO UNITARIO: ${1}\nCANTIDAD: {2}\nIMPORTE: ${3}", clave,precioUnitario,cantidad,importe);
-                        Console.WriteLine("\nCOMPRA EXITOSA");
+                        if(manejadora.EliminarProducto(clave)==1)
+                            Console.WriteLine("PRODUCTO ELIMINADO EXITOSAMENTE");
                         break;
                     case 0:
                         Console.ReadKey();
