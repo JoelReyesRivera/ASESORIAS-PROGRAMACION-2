@@ -7,13 +7,15 @@ namespace Tickets
         private int idTicket;
         private string nombreUsuario;
         private int idProyeccion;
+        private char tipoTicket;
         private int idAsiento;
 
-        public Boleto(string nomUsuario, int idProyeccion)
+        public Boleto(string nomUsuario, int idProyeccion, char tipoTicket)
         {
             this.idTicket++;
             this.nombreUsuario = nomUsuario;
             this.idProyeccion = idProyeccion;
+            this.tipoTicket = tipoTicket;
         }
 
         public int pIdTicket 
@@ -57,6 +59,12 @@ namespace Tickets
             {
                 idAsiento = value;
             }
+        }
+
+        public char pTipoTicket
+        {
+            get { return tipoTicket; }
+            set { tipoTicket = value; }
         }
 
         override

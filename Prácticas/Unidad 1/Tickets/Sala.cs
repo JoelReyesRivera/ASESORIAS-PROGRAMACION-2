@@ -10,7 +10,6 @@ namespace Tickets
         private byte noFilas;
         private byte noColumnas;
         private bool tipoSala;
-        private Asiento[,] asientos; 
 
         public Sala(int claveSala, byte noFilas, byte noColumnas, bool tipo)
         {
@@ -18,7 +17,6 @@ namespace Tickets
             this.noFilas = noFilas;
             this.noColumnas = noColumnas;
             this.tipoSala = tipo;
-            this.asientos = new Asiento[noFilas,noColumnas];
         }
 
         public int pIdSala
@@ -62,16 +60,6 @@ namespace Tickets
             set
             {
                 tipoSala = value;
-            }
-        }
-
-        public Asiento[,] pAsientos
-        {
-            get
-            { return asientos;}
-            set
-            {
-                asientos = value;
             }
         }
 
