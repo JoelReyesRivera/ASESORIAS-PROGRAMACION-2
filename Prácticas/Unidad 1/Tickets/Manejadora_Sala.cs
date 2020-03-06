@@ -43,7 +43,10 @@ namespace Tickets
 
             foreach(Sala value in salas)
             {
-                temp += value;
+                if (value!=null)
+                {
+                    temp += value.ToString();
+                }
             }
             return temp;
         }
