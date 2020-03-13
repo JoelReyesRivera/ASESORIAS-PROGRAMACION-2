@@ -7,16 +7,10 @@ namespace Tickets
         private int idTicket;
         private string nombreUsuario;
         private int idProyeccion;
-<<<<<<< Updated upstream
         private char tipoTicket;
         private int idAsiento;
 
-        public Boleto(string nomUsuario, int idProyeccion, char tipoTicket)
-=======
-        private int idAsiento;
-
         public Boleto(string nomUsuario, int idProyeccion)
->>>>>>> Stashed changes
         {
             this.idTicket++;
             this.nombreUsuario = nomUsuario;

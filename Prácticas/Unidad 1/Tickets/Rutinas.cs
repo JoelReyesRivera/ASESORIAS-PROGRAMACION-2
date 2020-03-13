@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tickets
 {
-    class Rutinas
+    public class Rutinas
     {
     }
 }
