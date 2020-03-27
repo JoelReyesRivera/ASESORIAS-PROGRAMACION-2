@@ -16,5 +16,22 @@ namespace Articulos_Visual
         {
             InitializeComponent();
         }
+
+        private void altaProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAgregarProductos agregar = new frmAgregarProductos();
+            agregar.Show();
+        }
+
+        private void verProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmDespliegueProductos frmProductos = new FrmDespliegueProductos();
+            frmProductos.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
