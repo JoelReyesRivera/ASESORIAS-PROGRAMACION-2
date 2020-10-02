@@ -6,29 +6,33 @@ namespace Clase__POO_
     {
         static void Main(string[] args)
         {
-            ManejaAuto manejadora = new ManejaAuto(10);
-            Console.WriteLine("\n IMPRESION ANTES DE AGREGAR\n" +  manejadora.toString());
+            CapaDeNegocio capaDeNegocio = new CapaDeNegocio(20);
+            int opcion = -1;
 
-            manejadora.AgregarAuto("A-124", "ACCORD", "HONDA", "AZUL", 100000);
-            Console.WriteLine("\nIMPRESION DESPUES DE AGREGAR UN AUTO" + manejadora.toString());
-
-            manejadora.AgregarAuto("A-126", "ACCORD", "HONDA", "AZUL", 100000);
-            manejadora.ModificarColor("A-124","ROJO");
-
-            Console.WriteLine("\nIMPRESION DESPUES DE AGREGAR Y MODIFICAR UN AUTO" + manejadora.toString());
-
-            Auto auto = manejadora.ObtenerAuto("A-124");
-            Console.WriteLine("\nIMPRESION AL BUSCAR AUTO");
-            if (auto == null)
+            while (opcion != 0)
             {
-                Console.WriteLine("\n NULO");
+                Console.WriteLine("MENU PRINCIPAL");
+                Console.WriteLine("1- AGREGAR\n2- VER AUTOS\n3- MODIFICAR COLOR\n0- SALIR");
+                opcion = int.Parse(Console.ReadLine());
+                switch (opcion)
+                {
+                    default:
+                        Console.WriteLine("NO SE SELECCIONO NINGUNA OPCION");
+                        break;
+                    case 1:
+                        capaDeNegocio.AgregarAuto();
+                        break;
+                    case 2:
+                        Console.WriteLine(capaDeNegocio.VerAutos());
+                        break;
+                    case 3:
+                        capaDeNegocio.Modificar();
+                        break;
+                    case 0:
+                        Console.ReadKey();
+                        break;
+                }
             }
-            else
-            {
-                Console.WriteLine("\n" + auto.toString());
-
-            }
-            Console.ReadKey();
         }
     }
 }

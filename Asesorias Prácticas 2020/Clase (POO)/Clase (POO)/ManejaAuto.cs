@@ -19,7 +19,7 @@ namespace Clase__POO_
 
         public bool AgregarAuto(string matricula, string modelo, string marca, string color, double precio)
         {
-            if (VerificaMatricula(matricula) || contador == longitud)
+            if (contador == longitud)
             {
                 return false;
             }
